@@ -16,3 +16,11 @@ print('o numero de vezes que c aparece é:',x)
 tamanho=len(frase)
 z=int(x*100/tamanho)
 print('a porcentagem é:{}%'.format(z))
+
+
+
+
+palavra = input('digite seu texto:')
+tamanho=palavra.lower()
+print({p:palavra.count(p)for p in set(palavra)})
+
