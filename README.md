@@ -27,5 +27,5 @@ frase = frase.lower()
 tamanho=len(frase)
 for x in set(frase):
     b = frase.count(x)
-    c =int(((b /tamanho)) * 100)
+    c =int((b /tamanho) * 100)
     print('o número de vezes que', x ,'aparece é:',b,'sua porcentagem é :{}%'.format(c))
